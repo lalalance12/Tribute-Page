@@ -65,8 +65,12 @@ main {
 }
 
 .tribute-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }   
 
@@ -75,7 +79,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 1rem;
+    margin-top: 1px;
     font-size: 16px;
 }
 
@@ -84,23 +88,27 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
     font-size: 16px;
+    
 }
 
 .mini-card{
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(192, 182, 182, 0.3);
+    border-radius: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 75px;
+    
 }
-
 
 .links{
     display: flex;
@@ -108,5 +116,4 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 1rem;
-
 }
